@@ -1,0 +1,5 @@
+<button (click)="getData()">GET DATA</button>
+
+<div *ngIf="users.length>0">
+    {{users | json}}
+</div>
